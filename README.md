@@ -81,11 +81,19 @@ ans: We have removed 2 Input data that is EIN and NAME. Because they are not ver
 Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
-<img src="Images/neuron_layers.png">
+<img src="Images/nuron_layers.png">
 
 
 Were you able to achieve the target model performance?
+ans: The Target percent we have achieved is 72% model performance.
+<img src="Images/Accuracy.png">
+
 What steps did you take in your attempts to increase model performance?
+ans: We have drop some columns and they are 'EIN','NAME','AFFILIATION','SPECIAL_CONSIDERATIONS','ORGANIZATION'.
+and we have change the number of application_value_count<150. after changing some values in optimization we could not reach 75% Accuracy in fact it decreased to 63%.
+<img src="Images/Optimization.png">
+
+
 
 
 
